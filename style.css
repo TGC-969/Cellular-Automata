@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+#title
+{
+    text-align: center;
+    font-size: 3em;
+    font-weight: oblique;
+    color: white;
+}
+#Buttons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#Buttons button
+{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#Buttons button:hover
+{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+#container {
+	position: relative;
+	top: 30px;
+	outline:2px solid white;
+	font-size: 0;
+	margin:auto;
+	height:960px;
+	width:960px;
+	padding: 0;
+	border: none;
+}
+.grid {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border: none;
+	outline: 1px solid white;
+	display:inline-block;
+}
